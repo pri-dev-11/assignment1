@@ -50,7 +50,7 @@ namespace Assignment_1
             {
                 return no_units * 1.20;
             }
-            else if(no_units >=100 && no_units <= 300)
+            else if(no_units >=100 && no_units <= 300*1)
             {
                 return (120 + (no_units - 100) * 2);
             }
