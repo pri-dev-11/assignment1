@@ -14,7 +14,7 @@ namespace Assignment_1
         public string AccountPassword { get => accountPassword; set => accountPassword = value; }
         static Account()
         {
-            bankName = "ABC Bank Ltd";
+            bankName = "ABC Bank Limited";
         }
         public Account()
         {
