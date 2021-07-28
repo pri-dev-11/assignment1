@@ -62,6 +62,14 @@ namespace Assignment_1
 
         static void Main(string[] args)
         {
+            try
+            {
+                int a = 10/0;
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
             Console.WriteLine("Enter no. of units: ");
             int n;
             n = Convert.ToInt32(Console.ReadLine());
